@@ -32,6 +32,44 @@
         <h3>Colaboraciones</h3>
         <a href="mailto:gazir@twic.es">gazir@twic.es</a><br>
         <img src="../img/instaa.png" width="300" alt="">
+        <h3>Formulario de Contacto</h3>
+        <form action="./login.php" method="POST">
+            <p>
+                <label for="user">Nombre de Usuario</label><br>
+                <input id="user" type="text" placeholder="Introduce tu usuario" name="username" required>
+
+            </p>
+            <p>
+                <label for="nombre">Nombre</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Como te llamas?" autofocus size="50" maxlength="100">
+            </p>
+            <p>
+                <label for="email">Correo electronico</label><br>
+                <input type="email" id="email" name="correo" placeholder="Introduce tu correo">
+            </p>
+            <p>
+                <label for="pwd">Contraseña</label><br>
+                <input id="pwd" type="password" placeholder="Introduce tu contraseña" name="password" required>
+
+            </p>
+            <p>
+                <h4>Cual es tu queja?</h4>
+                <select name="queja">
+                    <option value="fun">No funciona</option>
+                    <option value="mg">No me gusta</option>
+                    <option value="enter">No puedo entrar</option>
+                    <option value="otra">Otra</option>
+                </select>
+            </p>
+            <p>
+                <textarea name="observaciones"  cols="30" rows="10">
+
+                </textarea>
+            </p>
+            <p>
+                <button type="submit">Enviar</button>
+            </p>
+        </form>
 
     </main>
     <footer>
