@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#navegacion {
+    display: inline-block;
+}
+.nav-elem {
+    border: 3px solid black;
+}
