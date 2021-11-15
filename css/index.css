@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(216,216,216);
+    
+}
+
+header {
+    text-align: center;
+    position: relative;
+}
+
+header > h1 {
+   margin-top: 50px;
+  
+}
+
+header > #logo-gazir {
+    margin-top: 25px;
+}
+
+#logo-gazir {
+    border-radius: 50%;
+}
+
+#navegacion {
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+#navegacion > .nav-elem {
+    display: inline;
+    padding: 3px 3px 3px 12px;
+    transition: 1s;
+    
+}
+
+#navegacion > li > a {
+    color: black;
+}
+
+main {
+   position: relative;
+   margin-top: 50px;
+   text-align: center;
+}
+
+main > figure > figcaption{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.nav-elem :hover {
+  
+    transform: scale(1.5);
+}
+a {
+    text-decoration: none;
+    
+}
+
+
+li {
+    color: black;
+    margin-top: 15px;
+}
+
+
+
+
+.item-summary {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: blue;
+}
+.text p {
+    background: aqua;
+    
+}

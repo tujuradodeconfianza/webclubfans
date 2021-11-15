@@ -6,7 +6,7 @@
     <meta name="keywords" content="webfans,fansgazir,webgazir,gazir,fms,fmsesp,fmsespaña,redbullbatalladelosgallos,batalladegallos,redbull,redbullesp,chuty,bnet,sweetpain,blon">
     <meta name="description" content="Web Club de Fans de Gazir.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="../css/common.css">
     <link rel="icon" href="img/AzulBlancoLoboGamingLogotipo.jpg">
     
 </head>
@@ -31,23 +31,23 @@
         <a href="mailto:produccionescolours@gmail.com">produccionescolours@gmail.com</a>
         <h3>Colaboraciones</h3>
         <a href="mailto:gazir@twic.es">gazir@twic.es</a><br>
-        <img src="../img/instaa.png" width="300" alt="">
+        <img src="../img/instaa.png" width="300" alt="bio-insta-gazir">
         <h3>Formulario de Contacto</h3>
-        <form action="./login.php" method="POST">
-            <p>
+        <form action="./login.php" method="POST" id="form">
+            <p id="username">
                 <label for="user">Nombre de Usuario</label><br>
                 <input id="user" type="text" placeholder="Introduce tu usuario" name="username" required>
 
             </p>
-            <p>
+            <p id="name">
                 <label for="nombre">Nombre</label><br>
                 <input type="text" id="nombre" name="nombre" placeholder="Como te llamas?" autofocus size="50" maxlength="100">
             </p>
-            <p>
+            <p id="mail">
                 <label for="email">Correo electronico</label><br>
                 <input type="email" id="email" name="correo" placeholder="Introduce tu correo">
             </p>
-            <p>
+            <p id="passwd">
                 <label for="pwd">Contraseña</label><br>
                 <input id="pwd" type="password" placeholder="Introduce tu contraseña" name="password" required>
 
@@ -62,20 +62,20 @@
                 </select>
             </p>
             <p>
-                <textarea name="observaciones"  cols="30" rows="10">
+                <textarea name="observaciones" id="text-area"  cols="30" rows="10">
 
                 </textarea>
             </p>
             <p>
-                <button type="submit">Enviar</button>
+                <button type="submit" id="summary-button">Enviar</button>
             </p>
         </form>
 
     </main>
     <footer>
         &copy; Los derechos son reservados por Toni Jurado &lt; 2021/2022 &gt;
-        <a href="https://www.instagram.com/gazir_ysb/?hl=es" target="_blank"><img src="img/instagram-png-instagram-png-logo-1455.png" width="20" alt=""></a>
-        <a href="https://twitter.com/gazirgps?lang=es" target="_blank"><img src="img/580b57fcd9996e24bc43c53e.png" width="20" alt=""></a>
+        <a href="https://www.instagram.com/gazir_ysb/?hl=es" target="_blank"><img src="../img/instagram-png-instagram-png-logo-1455.png" width="20" alt="insta-gazir"></a>
+        <a href="https://twitter.com/gazirgps?lang=es" target="_blank"><img src="../img/580b57fcd9996e24bc43c53e.png" width="20" alt="twitter-gazir"></a>
     </footer>
 </body>
 </html>
