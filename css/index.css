@@ -31,7 +31,6 @@ header > #logo-gazir {
 #navegacion > .nav-elem {
     display: inline;
     padding: 3px 3px 3px 12px;
-    transition: 1s;
     
 }
 
@@ -52,8 +51,31 @@ main > figure > figcaption{
     margin-bottom: 20px;
 }
 
+aside {
+    display: inline-block;
+}
 
+main > aside > h3 {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
 
+main > aside > img {
+    float: left;
+    width: 200px;
+    margin-left: 5%;
+}
+
+main > aside > .text > p{
+    box-shadow:
+    0 0 0 5px rgb(145, 143, 143),
+    0 0 0 10px rgb(167, 165, 165),
+    0 0 0 15px rgb(211, 208, 208);
+    font-size: 20px;
+    line-height: 28px;
+    width: 90%;
+    margin-left: 5%;
+}
 
 .nav-elem :hover {
   
@@ -70,7 +92,9 @@ li {
     margin-top: 15px;
 }
 
-
+summary {
+    margin-top: 30px;
+}
 
 
 .item-summary {
@@ -78,7 +102,17 @@ li {
     font-size: 15px;
     color: blue;
 }
-.text p {
-    background: aqua;
-    
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer > a > #logo-insta {
+    width: 40px;
+}
+
+footer > a > #logo-twitter {
+    width: 40px;
 }
