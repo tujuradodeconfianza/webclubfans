@@ -4,3 +4,57 @@
     background-color: rgb(216,216,216);
     
 }
+
+/* <-----------------HEADER-----------------> */
+
+header {
+    text-align: center;
+    position: relative;
+}
+
+header > h1 {
+   margin-top: 50px;
+  
+}
+
+header > #logo-gazir {
+    margin-top: 25px;
+}
+
+#logo-gazir {
+    border-radius: 50%;
+}
+
+#navegacion {
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+#navegacion > .nav-elem {
+    display: inline;
+    padding: 3px 3px 3px 12px;
+    
+}
+
+#navegacion > li > a {
+    color: black;
+}
+a {
+    text-decoration: none;
+    
+}
+
+
+/* <----------------FOOTER----------------> */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer > a > #logo-insta {
+    width: 40px;
+}
+
+footer > a > #logo-twitter {
+    width: 40px;
+}

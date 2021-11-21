@@ -1,0 +1,33 @@
+#table {
+    margin-top: 20px;
+    margin-left: 30%;
+    width: 600px;
+}
+
+table {
+    width: 100%;
+    background-color: blue;
+
+}
+#table > tr {
+    text-align: center;
+    width: 100%;
+    margin-top: 2px;
+}
+
+#titulo {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+}
+
+th,td {
+    padding: 5px;
+
+}
+thead {
+    background-color:rgb(44, 123, 168);
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
