@@ -1,30 +1,15 @@
 
 
-#logo-gazir {
-    border-radius: 50%;
-}
-
-#navegacion {
-    margin-top: 5px;
-    font-family: sans-serif;
-}
-
-#navegacion > .nav-elem {
-    display: inline;
-    padding: 3px 3px 3px 12px;
-    transition: 1s;
-    
-}
-
-#navegacion > li > a {
-    color: black;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
 
 #primer-titulo {
     margin-top: 50px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+iframe {
+    margin-left: 470px;
 }

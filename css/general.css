@@ -28,23 +28,44 @@ a {
     display: inline-block;
     width: 80%;
     margin-left: 10%;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 20px;
 }
 
-#article-2 > h3 {
+#article-2 > h2 {
     margin-top: 20px;
     text-align: center;
+    background-color: white;
+}
+
+#article-2 > p {
+    background-color: white;
 }
 
 #article-3 {
     display: inline-block;
     width: 80%;
     margin-left: 10%;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 20px;
 }
 
-#article-3 > h3 {
+#article-3 > h2 {
     margin-top: 20px;
     text-align: center;
+    background-color: white;
 }
+
+#article-3 > p {
+    background-color: white;
+}
+
+#article-3 > .link {
+    background-color: white;
+}
+
 #article-4 {
     display: inline-block;
     width: 80%;
@@ -123,3 +144,4 @@ a {
     width: 85%;
     float: right;
 }
+
